@@ -1,0 +1,23 @@
+.header_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_main img {
+    width: 12%;
+    margin-bottom: -40px;
+}
+
+.header h5 {
+    margin: 0 0;
+}
+
+
+@media (max-width: 576px) {
+    .header_main img {
+        width: 25%;
+        margin-bottom: -20px;
+    }
+}

@@ -1,0 +1,27 @@
+.options {
+    width: 60%;
+    background-color: rgb(196, 211, 239);
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+
+    margin-bottom: 10px;
+}
+
+.options:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .options {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 5%;
+        background-color: rgb(196, 211, 239);
+        border: 2px solid cadetblue;
+        border-radius: 4px;
+
+        margin-bottom: 10px;
+    }
+}

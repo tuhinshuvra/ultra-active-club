@@ -1,0 +1,35 @@
+.topics {
+    border: 2px solid slateblue;
+    background-color: rgb(223, 221, 216);
+    border-radius: 130px 10px 5px 5px;
+
+}
+
+.topics img {
+    width: 100%;
+    border-radius: 130px 10px 0 0;
+}
+
+.topics button {
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+}
+
+.topics button:hover {
+    background-color: rgb(217, 144, 10);
+    color: white;
+}
+
+.name_no {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+    font-weight: bold;
+}
